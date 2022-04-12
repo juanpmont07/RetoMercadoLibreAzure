@@ -4,7 +4,7 @@ Prueba técnica para ingreso a mercado libre.
 
 # Introducción
 
-El challenge consiste en crear un API REST para detectar si un humano es mutante y las estadisticas.
+El challenge consiste en crear un API REST para detectar si un humano es mutante o no y  obtener las estadisticas en base a cuantos mutantes hay.
 
 ### Tecnologias Usadas
 
@@ -40,7 +40,7 @@ Programas necesitas para ejecutar el software
 
 4. Luego ingresamos la Url base del servicio..
 
-<pre><code>`https://x-men-api.azurewebsites.net/`</code></pre>
+<pre><code>https://x-men-api.azurewebsites.net/</code></pre>
 
 ![image](https://user-images.githubusercontent.com/44062843/163070926-c662f186-7be8-4e64-921b-0b9b660d968a.png)
 
@@ -56,26 +56,41 @@ Programas necesitas para ejecutar el software
 
 Request: 
 
-<pre><code>`https://x-men-api.azurewebsites.net/mutant/`</code></pre>
+<pre><code>https://x-men-api.azurewebsites.net/mutant/</code></pre>
 
 Method: POST
 
 Body: Is Human
 
-<pre><code>`{ "dna": ["TTGCGA", "CAGTGC", "TTAAAT", "ACAAGG","CACCTC", "TCACTG"] }`</code></pre>
+<pre><code>{ "dna": ["TTGCGA", "CAGTGC", "TTAAAT", "ACAAGG","CACCTC", "TCACTG"] }</code></pre>
 
 Body: Is Mutant
 
-<pre><code>`{ "dna": ["TTGCGA", "CAGTGC", "TTAAAT", "ACAAGG","CACCTC", "TCACTG"] }`</code></pre>
+<pre><code>{ "dna": ["TTGCGA", "CAGTGC", "TTAAAT", "ACAAGG","CACCTC", "TCACTG"] }</code></pre>
 
 ### Estadisticas
 
 Request: 
 
-<pre><code>`https://x-men-api.azurewebsites.net/stats/`</code></pre>
+<pre><code>https://x-men-api.azurewebsites.net/stats/</code></pre>
 
 Method: GET
 
+### Ejemplos
 
+Es mutante: 
+
+![image](https://user-images.githubusercontent.com/44062843/163072604-19c082b6-19d8-481f-8ac7-96ce4dd353ee.png)
+
+Es humano:
+
+![image](https://user-images.githubusercontent.com/44062843/163072639-bcff9ad4-99cf-4dee-8f6e-e0ddccd99b20.png)
+
+Estadisticas:
+
+![image](https://user-images.githubusercontent.com/44062843/163072681-0c93413c-a5d2-4dad-9f83-2174c5883122.png)
+
+
+Gracias.
 
 
