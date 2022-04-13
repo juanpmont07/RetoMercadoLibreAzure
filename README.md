@@ -46,9 +46,10 @@ Programas necesitas para ejecutar el software
 
 5. Cuando el método es GET no se requiere Body.
 
-6. Si el método es POST si requiere body el cual puedes seleccionar y luego se elige RAW Y formato JSON.
+6. Si el método es POST si requiere body el cual puedes seleccionar y luego se elige RAW Y formato JSON y pegamos el Body.
 
 ![image](https://user-images.githubusercontent.com/44062843/163072151-21885688-09f7-4f81-8941-ff2575d00409.png)
+
 
 7. Y por ultimo de damos en el bóton **Send**.
 
