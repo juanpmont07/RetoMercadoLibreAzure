@@ -1,10 +1,10 @@
 # Challenge Técnico en Mercado
 
-Prueba técnica para ingreso a mercado libre.
+Prueba técnica para ingreso a Mercado libre.
 
 # Introducción
 
-El challenge consiste en crear un API REST para detectar si un humano es mutante o no y  obtener las estadisticas en base a cuantos mutantes hay.
+El challenge consiste en crear un API REST para detectar si una persona es mutante o no y obtener las estadisticas en base a cuantos mutantes hay.
 
 ### Tecnologias Usadas
 
@@ -15,13 +15,13 @@ El challenge consiste en crear un API REST para detectar si un humano es mutante
 
 ## Comenzando 🚀
 
-Estas instrucciones te permitirán ejecutar proyecto .
+Estas instrucciones te permitirán ejecutar proyecto.
 
 ### Pre-requisitos 📋
 
-Programas necesitas para ejecutar el software
+Este es el Programa que necesitas para ejecutar el software.
 
-1. [Postman](https://www.postman.com/)
+* [Postman](https://www.postman.com/)
 
 ### Consumo del Servicio
 
@@ -38,7 +38,7 @@ Programas necesitas para ejecutar el software
 
 ![image](https://user-images.githubusercontent.com/44062843/163070616-301d072c-ed6c-473f-9deb-725f1215cb52.png)
 
-4. Luego ingresamos la Url base del servicio..
+4. Luego ingresamos la URL base del servicio..
 
 <pre><code>https://x-men-api.azurewebsites.net/</code></pre>
 
@@ -46,14 +46,15 @@ Programas necesitas para ejecutar el software
 
 5. Cuando el método es GET no se requiere Body.
 
-6. Si el método es POST si requiere body el cual puedes seleccionar y luego se elige RAW Y formato JSON y pegamos el Body.
+6. Si el método es POST, si requiere body el cual puedes seleccionar y luego se elige RAW Y formato JSON y pegamos el Body.
 
-![image](https://user-images.githubusercontent.com/44062843/163072151-21885688-09f7-4f81-8941-ff2575d00409.png)
+![image](https://user-images.githubusercontent.com/44062843/163076199-5087ef03-85a2-46b1-8b71-60a74ec08ee9.png)
 
 
-7. Y por ultimo de damos en el bóton **Send**.
 
-### Es mutante
+7. Y por ultimo le das click en el bóton **Send**.
+
+### API ¿es mutante?
 
 Request: 
 
@@ -97,6 +98,9 @@ Se completo un coverage > 80%
 
 ![image](https://user-images.githubusercontent.com/44062843/163075024-e1e336d7-8e07-4132-871f-5159db8f50bc.png)
 
+## Despliegue automatico
+
+Se configuro que cuando se haga un commit en la rama Master se despligue por medio Azure.
 
 Gracias.
 
