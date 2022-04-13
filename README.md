@@ -67,7 +67,7 @@ Body: Is Human
 
 Body: Is Mutant
 
-<pre><code>{ "dna": ["TTGCGA", "CAGTGC", "TTAAAT", "ACAAGG","CACCTC", "TCACTG"] }</code></pre>
+<pre><code>{ "dna": ["TTGCGA", "CAGTGC", "TTAAGT","ACAAGG","CCCCTC","TCACTG"] }</code></pre>
 
 ### Estadisticas
 
@@ -90,6 +90,12 @@ Es humano:
 Estadisticas:
 
 ![image](https://user-images.githubusercontent.com/44062843/163072681-0c93413c-a5d2-4dad-9f83-2174c5883122.png)
+
+## Pruebas Unitarias
+
+Se completo un coverage > 80%
+
+![image](https://user-images.githubusercontent.com/44062843/163075024-e1e336d7-8e07-4132-871f-5159db8f50bc.png)
 
 
 Gracias.
